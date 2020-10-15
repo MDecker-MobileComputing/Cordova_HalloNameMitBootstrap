@@ -8,6 +8,32 @@ The actual code of the app is contained in folder [www](www/).
 <br>
 
 ----
+## Build the app ##
+
+Prerequisites for building the app:
+
+* [Node.js with NPM](https://nodejs.org/en/download/) is installed.
+
+* Java is installed and environment variable `JAVA_HOME` is defined.
+
+* Android SDK is installed (e.g. as part of [Android Studio](https://developer.android.com/studio)) and environment variable `ANDROID_SDK_ROOT` is defined.
+
+* Check if Cordova is installed: `cordova --version`.
+  If Cordova is not installed, then use the following command to install it: `npm install -g cordova`
+
+<br>
+
+To build the app for Android you have to open a command prompt/shell in the cloned repository folder and enter the following commands:
+
+1. `npm install`
+
+2. Add Android as target platform: `cordova platform add android`
+
+3. Build the app: `cordova build android`
+
+<br>
+
+----
 ## License ##
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License) for the files in this repository.
