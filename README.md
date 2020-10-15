@@ -31,6 +31,8 @@ To build the app for Android you have to open a command prompt/shell in the clon
 
 3. Build the app: `cordova build android`
 
+4: Run it in emulator (optional): `cordova run android`
+
 <br>
 
 ----
