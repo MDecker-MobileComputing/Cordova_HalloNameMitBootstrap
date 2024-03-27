@@ -1,5 +1,7 @@
 # Cordova-App "Hallo Name" mit Bootstrap #
 
+<br>
+
 This repository contains the [Cordova](https://cordova.apache.org/) project for a very simple mobile app based on the UI/CSS framework [Bootstrap](https://getbootstrap.com/),
 that can be compiled to an Android app and also to an iOS app (for the latter one a MacOS computer is needed).
 
@@ -8,7 +10,10 @@ The actual code of the app is contained in folder [www](www/).
 <br>
 
 ----
+
 ## Build the app ##
+
+<br>
 
 Prerequisites for building the app:
 
@@ -36,7 +41,10 @@ To build the app for Android you have to open a command prompt/shell in the clon
 <br>
 
 ----
+
 ## License ##
+
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License) for the files in this repository.
 
